@@ -32,7 +32,7 @@ df['Level of Education'] = df['Level of Education'].map(d)
 df.head()
 
 #Filter out headers that hold various canidate data 
-features = list(df.columns[:7])
+features = list(df.columns[:6])
 
 #Create the tree using the desired header and the seperated headers list 
 y = df["Hired"]
