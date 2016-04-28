@@ -48,6 +48,8 @@ tree.export_graphviz(clf, out_file=dot_data,
 graph = pydot.graph_from_dot_data(dot_data.getvalue())  
 Image(graph.create_png())  
 
+#The code below this point would be ran in a seperate file, with this one imported to it. It is placed in this file for display
+
 
 #Test the validity of the tree using the "Random Forest" methood with a factor of 25 seperate tests 
 clf = RandomForestClassifier(n_estimators=25)
