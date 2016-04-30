@@ -1,6 +1,6 @@
 '''
 PyDomitor Step Counter V.1
-    A basic health diary using a SQLight database to store and retrieve information
+    A basic health diary using a SQLite database to store and retrieve information
     
 Coded By: Tyler Linne
 Date: 4/29/16
